@@ -1,0 +1,4 @@
+IMAGE_PATH : 'CollectedImages'
+LABELS : ['ILoveYou','ThakYou','No','Yes','Please','Hello']
+NUMBER_OF_IMAGES : 40
+CAMERA_INDEX : 0
