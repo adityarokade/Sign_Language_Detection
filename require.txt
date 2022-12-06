@@ -4,3 +4,5 @@ PyYAM
 
 
 "pip install opencv-python"
+'''bash 
+pip install PyYAML '''
