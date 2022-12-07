@@ -7,3 +7,6 @@ pip install PyYAML
 ```bash
 pip install opencv-python
 ```
+```bash
+pip install GitPython
+```

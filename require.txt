@@ -1,8 +1,6 @@
 cv2
 PyYAM
+pip install GitPython
 
 
 
-"pip install opencv-python"
-'''bash 
-pip install PyYAML '''
