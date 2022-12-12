@@ -9,12 +9,13 @@ class clone_repo:
         self.directory_path=directory_path
         
 
-    def Cloning(self):
+    def cloning(self):
 
-
+        print("okkkkk_clone_git_repo")
         os.makedirs(self.directory_path)
         Repo.clone_from(self.link, self.directory_path)
         
+
 
      
     

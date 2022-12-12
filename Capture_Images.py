@@ -4,13 +4,7 @@ import time
 import uuid
 from read_yaml import Read_Yaml
 from File_Operations import File_Operations
-# import yaml
 
-
-# def read_yaml(path_to_yaml: str):
-#     with open(path_to_yaml) as yaml_file:
-#         content = yaml.safe_load(yaml_file)
-#     return content
 
 
 
@@ -52,7 +46,7 @@ class CaptureImage:
         for label in self.Labels:
             img_path=os.path.join(self.ImageFolderPath, label)
             self.File_Operations.Create_Folder(img_path)
-            # os.makedirs(img_path)
+            
             capture_image(label)
 
 

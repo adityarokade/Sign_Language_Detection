@@ -16,7 +16,7 @@ class Data_Processing:
         self.DataPath=self.config.['DATA_PATH']
         pass
     
-    def Collecting_all_Data(self,):
+    def Collecting_all_Data(self):
         self.File_Operations.Create_Folder(self.ALL_IMAGES_PATH)
         folder_list=[i for i in os.listdir(self.ImageFolderPath)]
 

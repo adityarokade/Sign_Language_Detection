@@ -9,5 +9,7 @@ DATA_PATH : 'Data/DATA'
 
 
 LABELS : ['ILoveYou','ThakYou','No','Yes','Please','Hello']
+NUMBER_OF_CLASSES : 6
+
 NUMBER_OF_IMAGES : 40
 CAMERA_INDEX : 0
