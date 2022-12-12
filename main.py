@@ -50,4 +50,4 @@ def main():
 
 if __name__ == "__main__":
     data_operations()
-    main()
+    # main()
