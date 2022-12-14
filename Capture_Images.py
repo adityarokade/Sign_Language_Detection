@@ -33,7 +33,7 @@ class CaptureImage:
                 cv2.imshow('frame',frame)
                 time.sleep(2)
 
-                if cv2.waitkey(1)& oxFF == ord('q'):
+                if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
             cap.release()
         except:
@@ -51,7 +51,8 @@ class CaptureImage:
 
 
     
-
+A= CaptureImage()
+A.create_folder_image()
 
 
 
