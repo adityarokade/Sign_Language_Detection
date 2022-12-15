@@ -10,3 +10,16 @@ class Read_Yaml:
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
         return content
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
