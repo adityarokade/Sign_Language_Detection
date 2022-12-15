@@ -11,7 +11,7 @@ import yolov5/train.py
 class Model_Training:
     def__init__(Self):
         pass
-    
+                
     def model_train(self,epochs):
         self.EPOCH=epochs
 
