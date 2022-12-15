@@ -11,7 +11,6 @@ class clone_repo:
 
     def cloning(self):
 
-        print("okkkkk_clone_git_repo")
         os.makedirs(self.directory_path)
         Repo.clone_from(self.link, self.directory_path)
         

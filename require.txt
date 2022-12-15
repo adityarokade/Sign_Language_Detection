@@ -1,6 +1,0 @@
-cv2
-PyYAM
-pip install GitPython
-
-
-

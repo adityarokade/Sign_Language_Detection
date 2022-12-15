@@ -50,9 +50,9 @@ class CaptureImage:
             capture_image(label)
 
 
-    
-A= CaptureImage()
-A.create_folder_image()
+if __name__=='__main__':
+    A= CaptureImage()
+    A.create_folder_image()
 
 
 
