@@ -45,5 +45,6 @@ class Data_Processing:
         for i in Txtfiles:
             shutil.copy(i,f'{self.DataPath}/test/labels') 
 
-        for i in images:
+        for i in images: 
+            
             shutil.copy(i,f'{self.DataPath}/train/images')
